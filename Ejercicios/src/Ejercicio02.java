@@ -15,6 +15,7 @@ public class Ejercicio02 {
 		String entradaTeclado = "";
 		Scanner entradaScanner = new Scanner (System.in);
 		entradaTeclado = entradaScanner.nextLine();
+		entradaScanner.close();
 		return "Hola, " + entradaTeclado;
 	}
 	

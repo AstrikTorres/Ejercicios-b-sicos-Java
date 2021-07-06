@@ -11,6 +11,7 @@ public class Ejercicio01 {
 		//Invocamos un método sobre un objeto Scanner
 	     entradaTeclado = entradaEscaner.nextLine();
 	     System.out.println ("Bienvenido " + entradaTeclado);
+	     entradaEscaner.close();
 	}
 
 }
